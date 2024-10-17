@@ -43,6 +43,7 @@ public class Punto4 {
             if(randomNumbers.get(i) == valueToSearch){
                 System.out.println("El valor " + valueToSearch + " se encuentra en la lista, en la posición " + i);
                 found=true;
+                break;
             }
         }
         if(!found){
